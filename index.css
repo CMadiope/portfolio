@@ -65,3 +65,31 @@
     top: 30px;
   }
 }
+
+.skill-icon {
+  width: 100px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.skills {
+  display: flex;
+}
+
+.project-item .project-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  border-radius: 4px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.project-item:hover .project-btn {
+  opacity: 1;
+  width: calc(100%-60px);
+  height: calc(100%-60%);
+  top: 30px;
+  left: 30px;
+}
